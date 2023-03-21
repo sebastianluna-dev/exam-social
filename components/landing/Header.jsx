@@ -24,11 +24,8 @@ export function Header() {
           <Link href="/home">
             <button className="h-full" type="button">Home</button>
           </Link>
-          <Link href="/contact">
-            <button className="h-full" type="button">Contact</button>
-          </Link>
-          <Link href="/about-us">
-            <button className="h-full" type="button">About us</button>
+          <Link href="/exam">
+            <button className="h-full" type="button">Exam</button>
           </Link>
           {
             !session && (
